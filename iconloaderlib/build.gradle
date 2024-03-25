@@ -4,6 +4,8 @@ plugins {
 
 android {
     namespace = "com.android.launcher3.icons"
+    compileSdkVersion COMPILE_SDK
+
     sourceSets {
         main {
             java.srcDirs = ['src', 'src_full_lib']
